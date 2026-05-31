@@ -1,3 +1,5 @@
+<img width="1919" height="905" alt="1" src="https://github.com/user-attachments/assets/a7686995-043c-4bcd-a626-684d07353d14" />
+<img width="1917" height="908" alt="2" src="https://github.com/user-attachments/assets/172471fc-4be4-4bda-83b9-34743d1e8b00" />
 # gmux
 
 `gmux` is an easy command layer on top of `tmux`.
