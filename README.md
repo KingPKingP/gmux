@@ -23,7 +23,7 @@ go build -o gmux ./cmd/gmux
 
 ```bash
 ./gmux install
-./gmux session
+gmux session
 ```
 
 ## Bootstrap (deps + binary)
@@ -35,16 +35,16 @@ go build -o gmux ./cmd/gmux
 ## CLI
 
 ```bash
-./gmux session         # create next free session (1..9) and attach
-./gmux 1               # attach session 1
-./gmux 2               # attach session 2
-./gmux list            # list managed sessions
-./gmux kill 1          # kill one managed session
-./gmux kill all        # kill all managed sessions
-./gmux rename 2 api    # label session 2 as "api" (shown in status bar)
-./gmux install         # auto-install tmux + install gmux to /usr/local/bin or /usr/bin
-./gmux start dev       # attach named session (advanced/optional)
-./gmux doctor          # print binary + config paths
+gmux session         # create next free session (1..9) and attach
+gmux 1               # attach session 1
+gmux 2               # attach session 2
+gmux list            # list managed sessions
+gmux kill 1          # kill one managed session
+gmux kill all        # kill all managed sessions
+gmux rename 2 api    # label session 2 as "api" (shown in status bar)
+gmux install         # auto-install tmux + install gmux to /usr/local/bin or /usr/bin
+gmux start dev       # attach named session (advanced/optional)
+gmux doctor          # print binary + config paths
 ```
 
 ## Key layer (inside tmux, no prefix)
